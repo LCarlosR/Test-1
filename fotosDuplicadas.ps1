@@ -56,8 +56,8 @@ Function generaNombre ($oldNombre, $dirBus) {
 # - SCRIPT MAIN BODY - START -
 #----------------------------------------------------------------------------------------------------------------------
 #
-    "" |  Out-File "$lPrincipal"
-    "" |  Out-File "$lbusqueda"
+    ### "" |  Out-File "$lPrincipal"
+    ### "" |  Out-File "$lbusqueda"
     generaLista $DP $lPrincipal
     generaLista $DB $lBusqueda
     $files = Get-ChildItem "$DB\IMG_*.JPG"
